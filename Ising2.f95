@@ -39,6 +39,7 @@ program ising
 		s = s_init
 		do k = 1, pMC 
 			suma = 0 
+			call random_seed()
 			call random_number(r1)
 			r1 = floor(r1*(n+1))
 			call random_number(r2)
@@ -125,3 +126,15 @@ subroutine cond_contorno(red, n)
 	end do
 
 end subroutine cond_contorno
+
+subroutine patron(red, n)
+	implicit none 
+	integer, intent(in) :: n
+	integer, intent(inout) :: red
+
+	open(1, file='patron1', status='unknown')
+		read(1,*) red  
+	close(1)
+
+	
+end subroutine patron

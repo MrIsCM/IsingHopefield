@@ -1,0 +1,8 @@
+# Ignore .exe files
+*.exe
+
+#Ignore test folder
+test/
+
+#Ignore original images
+ImageSource/
