@@ -1,6 +1,9 @@
 # Ignore .exe files
 *.exe
 
+# Ignore pdf files
+*.pdf
+
 #Ignore test folder
 test/
 
