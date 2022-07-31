@@ -1,6 +1,6 @@
 set terminal gif animate delay 5
-set output 'Gifs/Ising104_3.gif'
-data = 'Data/Data10.dat'
+set output 'Gifs/Ising104_4.gif'
+data = 'Data/Data1.dat'
 stats data
 
 set xrange [0.5:60.5]
