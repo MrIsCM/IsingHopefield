@@ -280,6 +280,7 @@ subroutine hamiltoniano(red, w, theta, n, H)
 	integer :: i, j, k, l 
 
 	H = 0 
+
 	do i = 1, n
 		do j = 1, n
 			do k = 1, n
